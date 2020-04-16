@@ -1,0 +1,7 @@
+README.md
+setup.py
+devops_challenge/__init__.py
+no3ams.egg-info/PKG-INFO
+no3ams.egg-info/SOURCES.txt
+no3ams.egg-info/dependency_links.txt
+no3ams.egg-info/top_level.txt
