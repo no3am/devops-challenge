@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'pip install -r requirements.txt'
-                sh 'python test_hello_world.py'
+                sh 'python test_hello_world.py > test-reports/results.xml'
             }
             post {
                 always {
