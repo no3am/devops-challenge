@@ -12,11 +12,6 @@ pipeline {
                 sh 'pip install -r requirements.txt'
                 sh 'python3 test_hello_world.py > test-reports/results.xml'
             }
-            post {
-                always {
-                    junit 'test-reports/results.xml'
-                }
-            }
         }
     }
 }
