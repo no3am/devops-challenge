@@ -1,5 +1,5 @@
 # test_hello.py
-from sources.hello import app
+from hello import app
 import unittest
 
 
