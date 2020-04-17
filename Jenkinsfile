@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'pip install -r Flask==1.0.2'
+                sh 'pip install -r requirements.txt'
                 sh 'py.test --junit-xml test-reports/results.xml test_hello_world.py'
             }
             post {
