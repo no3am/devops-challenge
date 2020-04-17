@@ -14,7 +14,6 @@ pipeline {
             }
             post {
                 always {
-                    sh 'rm test-reports/*.xml'
                     junit 'test-reports/results.xml'
                 }
             }
